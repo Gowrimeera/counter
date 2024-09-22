@@ -1,0 +1,70 @@
+.counter{
+    text-align: center;
+    padding: 10rem;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,236,253,1) 50%, rgba(252,176,69,1) 100%);
+    width: 75%;
+    background-attachment: fixed;
+}
+.counter-1{
+    border: 3px solid black;
+    padding: 2rem;
+    width: 50%;
+    margin-left: 22%;
+    border-radius: 1rem;
+}
+.counter-1 h2{
+    color:blue;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+.counter-1 h1{
+    font-size: 2.5rem;
+}
+.counter-1 button{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.radiant-button {
+    background-image: linear-gradient(to right, #03A9F4, #8BC34A); 
+    color: #fff;
+    border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 
+    0 0 10px rgba(0, 111, 255, 0.7), 
+    0 0 20px rgba(0, 63, 255, 0.5), 
+    0 0 30px rgba(0, 35, 255, 0.3);
+
+
+    
+  }
+
+  @media (max-width:450px) {
+    .counter{
+        width: 50%;
+    }
+    .counter-1{
+        width: 100%;
+        margin-left: -4rem;
+        padding: 5rem;
+    }
+    .counter-1 h2{
+        font-size: 2rem;
+        margin-top: 0.4rem;
+    }
+    .counter-1 h1{
+        font-size: 3rem;
+    }
+    
+  }
+  
+  
+  
+  
